@@ -81,16 +81,16 @@ val length = text?.length
 > Java
 
 ```java
-String firstName = "Amit";
-String lastName = "Shekhar";
+String firstName = "Pangaj";
+String lastName = "J G";
 String message = "My name is: " + firstName + " " + lastName;
 ```
 
 > Kotlin
 
 ```kotlin
-val firstName = "Amit"
-val lastName = "Shekhar"
+val firstName = "Pangaj"
+val lastName = "J G"
 val message = "My name is: $firstName $lastName"
 ```
 
@@ -306,25 +306,25 @@ for ((key, value) in map) { }
 final List<Integer> listOfNumber = Arrays.asList(1, 2, 3, 4);
 
 final Map<Integer, String> keyValue = new HashMap<Integer, String>();
-map.put(1, "Amit");
-map.put(2, "Ali");
-map.put(3, "Mindorks");
+map.put(1, "Pangaj");
+map.put(2, "Shruthi");
+map.put(3, "Swetha");
 
 // Java 9
 final List<Integer> listOfNumber = List.of(1, 2, 3, 4);
 
-final Map<Integer, String> keyValue = Map.of(1, "Amit",
-                                             2, "Ali",
-                                             3, "Mindorks");
+final Map<Integer, String> keyValue = Map.of(1, "Pangaj",
+                                             2, "Shruthi",
+                                             3, "Swetha");
 ```
 
 > Kotlin
 
 ```kotlin
 val listOfNumber = listOf(1, 2, 3, 4)
-val keyValue = mapOf(1 to "Amit",
-                     2 to "Ali",
-                     3 to "Mindorks")
+val keyValue = mapOf(1 to "Pangaj",
+                     2 to "Shruthi",
+                     3 to "Swetha")
 ```
 
 ---
