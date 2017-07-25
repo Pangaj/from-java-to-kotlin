@@ -598,7 +598,7 @@ public class Developer implements Cloneable {
 }
 
 // cloning or copying 
-Developer dev = new Developer("Mindorks", 30);
+Developer dev = new Developer("Google", 30);
 try {
      Developer dev2 = (Developer) dev.clone();
 } catch (CloneNotSupportedException e) {
@@ -613,7 +613,7 @@ try {
 data class Developer(var name: String, var age: Int)
 
 // cloning or copying
-val dev = Developer("Mindorks", 30)
+val dev = Developer("Google", 30)
 val dev2 = dev.copy()
 // in case you only want to copy selected properties
 val dev2 = dev.copy(age = 25)
