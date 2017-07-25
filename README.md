@@ -13,15 +13,15 @@
 > Java
 
 ```java
-System.out.print("Amit Shekhar");
-System.out.println("Amit Shekhar");
+System.out.print("Pangaj");
+System.out.println("Pangaj");
 ```
 
 > Kotlin
 
 ```kotlin
-print("Amit Shekhar")
-println("Amit Shekhar")
+print("Pangaj")
+println("Pangaj")
 ```
 
 ---
@@ -29,15 +29,15 @@ println("Amit Shekhar")
 > Java
 
 ```java
-String name = "Amit Shekhar";
-final String name = "Amit Shekhar";
+String name = "Pangaj";
+final String name = "Pangaj";
 ```
 
 > Kotlin
 
 ```kotlin
-var name = "Amit Shekhar"
-val name = "Amit Shekhar"
+var name = "Pangaj"
+val name = "Pangaj"
 ```
 
 ---
